@@ -21,7 +21,7 @@ namespace HelloReactiveUI.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new HelloReactiveUI.App());
+            LoadApplication(new HelloNetStandard.App());
         }
     }
 }
