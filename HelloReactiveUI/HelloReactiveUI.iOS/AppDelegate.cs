@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using HelloNetStandard;
 using UIKit;
 
 namespace HelloReactiveUI.iOS

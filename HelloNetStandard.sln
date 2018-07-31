@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloReactiveUI.Android", "HelloReactiveUI\HelloReactiveUI.Android\HelloReactiveUI.Android.csproj", "{CE339E6A-1E20-4AA0-B98E-AC469F613B1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloNetStandard.Android", "HelloReactiveUI\HelloReactiveUI.Android\HelloNetStandard.Android.csproj", "{CE339E6A-1E20-4AA0-B98E-AC469F613B1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloReactiveUI", "HelloReactiveUI\HelloReactiveUI\HelloReactiveUI.csproj", "{984433BA-6DB2-4606-8AB1-E5E070C60D44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloNetStandard", "HelloReactiveUI\HelloReactiveUI\HelloNetStandard.csproj", "{984433BA-6DB2-4606-8AB1-E5E070C60D44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloReactiveUI.UWP", "HelloReactiveUI\HelloReactiveUI.UWP\HelloReactiveUI.UWP.csproj", "{6F08CB19-DFD1-47EA-82AD-42F78560895B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloNetStandard.UWP", "HelloReactiveUI\HelloReactiveUI.UWP\HelloNetStandard.UWP.csproj", "{6F08CB19-DFD1-47EA-82AD-42F78560895B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloReactiveUI.iOS", "HelloReactiveUI\HelloReactiveUI.iOS\HelloReactiveUI.iOS.csproj", "{28A272D8-BB36-45F4-B2C0-626E8DB20395}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloNetStandard.iOS", "HelloReactiveUI\HelloReactiveUI.iOS\HelloNetStandard.iOS.csproj", "{28A272D8-BB36-45F4-B2C0-626E8DB20395}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -254,5 +254,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37BAD8C8-724A-4039-9488-F98D48EBB7B1}
 	EndGlobalSection
 EndGlobal

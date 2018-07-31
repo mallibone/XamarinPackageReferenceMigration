@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using HelloNetStandard.Views;
 using Xamarin.Forms;
 
-namespace HelloReactiveUI
+namespace HelloNetStandard
 {
     public partial class App : Application
     {
@@ -13,7 +9,7 @@ namespace HelloReactiveUI
         {
             InitializeComponent();
 
-            MainPage = new HelloReactiveUI.MainPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
