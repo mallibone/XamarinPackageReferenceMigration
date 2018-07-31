@@ -1,17 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using HelloNetStandard.ViewModels;
 using Xamarin.Forms;
 
-namespace HelloReactiveUI
+namespace HelloNetStandard.Views
 {
     public partial class MainPage : ContentPage
     {
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new MainViewModel();
+        }
+
+        private async Task ShowDialogMessage(string message)
+        {
+            await ShowDialogMessage(message);
         }
     }
 }
